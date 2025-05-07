@@ -1,0 +1,74 @@
+/* Bước 2: Tạo kiểu cho thẻ body (font-family và font-size) */
+body {
+    font-family: Arial, sans-serif; /* Chọn họ phông chữ */
+    font-size: 16px; /* Chỉnh kích thước phông chữ */
+    margin: 0;
+    padding: 0;
+}
+
+/* Bước 3: Tạo kiểu cho thẻ header (màu nền) */
+header {
+    background-color: #f0f0f0; /* Màu nền cho thẻ header */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Bước 4: Tạo kiểu cho thẻ nav (màu nền) */
+nav {
+    background-color: #333; /* Màu nền cho thẻ nav */
+    color: white; /* Màu chữ cho thẻ nav */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Bước 5: Tạo kiểu cho thẻ main (màu nền và font-size) */
+main {
+    background-color: #ffffff; /* Màu nền cho thẻ main */
+    font-size: 18px; /* Kích thước phông chữ cho thẻ main */
+    padding: 20px;
+}
+
+/* Bước 6: Tạo kiểu cho thẻ footer (màu nền) */
+footer {
+    background-color: #222; /* Màu nền cho thẻ footer */
+    color: white; /* Màu chữ cho thẻ footer */
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Bước 7: Tạo kiểu cho thẻ li (hiển thị inline-block và chiều rộng) */
+li {
+    display: inline-block; /* Đổi kiểu hiển thị của các thẻ li */
+    width: 200px; /* Đặt chiều rộng cho các mục danh sách */
+}
+
+/* Bước 8: Tạo kiểu cho thẻ h1 (căn chỉnh văn bản, font-family và màu sắc) */
+h1 {
+    text-align: center; /* Căn chỉnh văn bản vào giữa */
+    font-family: 'Times New Roman', serif; /* Chọn họ phông chữ */
+    color: #333; /* Đặt màu chữ cho h1 */
+}
+
+/* Bước 9: Tạo kiểu cho thẻ p (chiều cao dòng) */
+p {
+    line-height: 1.5; /* Chỉnh sửa chiều cao dòng */
+}
